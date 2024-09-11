@@ -1,0 +1,314 @@
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 700px;
+        padding: 20px 0px;
+
+        img {
+            height: 40px;
+            width: 130px;
+        }
+
+        #nav_menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            #nav_text {
+                color: grey;
+                font-size: 20px;
+            }
+
+            #icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                #icon {
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50%
+                }
+            }
+
+        }
+    }
+
+    #first {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px black solid;
+        padding: 100px, 150px;
+        background: linear-gradient(white, rgba(98, 157, 187, 0.285)), url("home-bg.png");
+        color: black;
+
+        #para {
+            font-size: 30px;
+            color: black;
+            padding: 30px 15px;
+            text-align: center;
+
+        }
+
+        #button {
+            background-color: skyblue;
+            color: white;
+            gap: 20px;
+        }
+
+        #dual {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        #nav_menu1 {
+            padding: 25px;
+            gap: 50px;
+            background-color: black;
+
+        }
+
+        #note {
+            font-size: 20px;
+            padding: 30px;
+            gap: 300px;
+        }
+    }
+
+    #thrice {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px black solid;
+        background-color: white;
+
+        #one,
+        #two,
+        #three {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 90px;
+            gap: 15px;
+
+            img {
+                height: 60px;
+                width: 80px;
+                align-items: start;
+                border: 2px skyblue solid;
+                border-radius: 50%;
+                padding: 10px 10px;
+            }
+
+            #text {
+                padding: 0px 7px;
+                text-align: right;
+                color: black;
+                font-size: 15px;
+            }
+
+        }
+    }
+
+    #sub_part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        #machine_work {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            #notes1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 15px;
+
+                #title1 {
+                    font-size: 40px;
+                }
+
+                #subtitle1 {
+                    font-size: 25px;
+                    color: grey;
+                }
+
+                #matter1 {
+                    font-size: 20px;
+                    color: rgba(128, 128, 128, 0.548);
+                    text-align: center;
+                    padding: 10px 60px;
+                }
+            }
+        }
+
+        #human_work {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            #notes2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 15px;
+
+                #title2 {
+                    font-size: 40px;
+                }
+
+                #subtitle2 {
+                    font-size: 25px;
+                    color: grey;
+                }
+
+                #matter2 {
+                    font-size: 20px;
+                    color: rgba(128, 128, 128, 0.578);
+                    text-align: center;
+                    padding: 10px 60px;
+                }
+            }
+        }
+
+        #website_work {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            #notes3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 15px;
+
+                #title3 {
+                    font-size: 40px;
+                }
+
+                #subtitle3 {
+                    font-size: 25px;
+                    color: grey;
+                }
+
+                #matter3 {
+                    font-size: 20px;
+                    color: rgba(128, 128, 128, 0.516);
+                    text-align: center;
+                    padding: 10px 60px;
+                }
+            }
+        }
+
+        #matter {
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        #sub {
+            font-size: 20px;
+            color: grey;
+        }
+
+        #logos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 90px;
+        }
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        #title {
+            font-size: 35px;
+        }
+
+        #subtitle {
+            font-size: 15px;
+        }
+    }
+
+    #rateing_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px;
+        gap: 20px;
+    }
+
+    #box1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        #rateing {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    #box2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        #rateing1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
+
+}
